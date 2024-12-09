@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Filllum</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.min.css">
+    <script defer src="js/main.min.js"></script>
+</head>
+
+<body class="body">
+
+    <header class="header header--product">
+
+        <div class="container-main">
+            <div class="header__wrapper">
+                <a class="header__logo" href="index.html">
+                    <img class="header__logo-img" src="./img/logo.png" alt="Логотип">
+                </a>
+                <nav class="nav">
+                    <ul class="nav__items">
+                        <li class="nav__item"><a class="nav__item-link" href="about.html">О нас </a></li>
+                        <li class="nav__item"><a class="nav__item-link" href="catalog.html?cosmetics" data-cosmetics>Косметика</a></li>
+                        <li class="nav__item"><a class="nav__item-link" href="catalog.html?bads" data-bads>БАДы</a></li>
+                    </ul>
+                </nav>
+                <button class="burger" aria-label="Открыть меню">
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="about">
+            <div class="about__media" data-bigimg="./img/hero.jpg" data-smallimg="./img/hero-mob.jpg">
+                <div class="about__media-wrapper container">
+                    <p class="about__media-text">
+                        Filllum — чувствуй жизнь
+                    </p>
+                </div>
+            </div>
+            <div class="about__container container">
+                <div class="about__wrap">
+                    <h2 class="about__title title">Добро пожаловать! <span class="accent">Filllum</span> — ваш ежедневный ритуал для поддержания красоты</h2>
+                    <div class="about__content">
+                        <p class="about__text">Добро пожаловать в мир красоты и заботы о себе с <span class="accent">Filllum</span>!</p>
+                        <p class="about__text">Наш бренд родился из стремления помогать людям чувствовать себя на энергии, здоровыми и молодым. Мы верим, что красота — это не просто результат внешних усилий, но и заботы о своем внутреннем здоровье. Эта философия вдохновляет нас каждый день.</p>
+                        <p class="about__text"><span class="accent">Filllum</span> объединяет в себе передовые технологии и натуральные компоненты для создания продуктов, которые не только улучшают состояние вашей кожи, но и поддерживают ваш внутренний баланс. Мы стремимся подарить вам удовольствие и результат от наших продуктов.</p>
+                        <p class="about__text">Каждая баночка нашего крема — это результат тщательного подбора ингредиентов, испытаний и инноваций. Мы гордимся тем, что каждый наш товар несет в себе заботу, любовь и стремление сделать вашу кожу более здоровой и красивой.</p>
+                        <p class="about__text">Спасибо, что выбрали <span class="accent">Filllum</span>. Погрузитесь в мир ухода, где каждый момент становится маленьким ритуалом заботы о себе.</p>
+                        <p class="about__text">С любовью,
+                            <br>
+                            Команда <span class="accent">Filllum</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="overlay"></div>
+    </main>
+    <footer class="footer">
+    <div class="container-main">
+        <div class="footer__wrapper">
+            <a class="footer__logo" href="index.html">
+                <img class="footer__logo-img" src="./img/logo-footer.png" alt="Логотип">
+            </a>
+            <div class="footer__info">
+                <div class="social">
+                    <p class="social__title">Наши аккаунты в социальных сетях</p>
+                    <ul class="social__items">
+                        <li class="social__item">
+                            <a class="social__item-link" href="#">
+                                <svg class="social__item-img social__item-img--vk">
+                                    <use xlink:href="img/sprite.svg#VK"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__item-link" href="#">
+                                <svg class="social__item-img social__item-img--inst">
+                                    <use xlink:href="img/sprite.svg#Instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="telephone">
+                    <p class="telephone__title">ИП: Иванов Сергей Петрович</p>
+                    <a class="telephone__link" href="mailto:sergeiivanov@rambler.ru"> sergeiivanov@rambler.ru</a>
+                    <p class="telephone__title">ИНН: 123456789012</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>
