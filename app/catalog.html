@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Filllum</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.min.css">
+    <script defer src="js/main.min.js"></script>
+</head>
+
+<body class="body">
+
+    <header class="header header--product">
+
+        <div class="container-main">
+            <div class="header__wrapper">
+                <a class="header__logo" href="index.html">
+                    <img class="header__logo-img" src="./img/logo.png" alt="Логотип">
+                </a>
+                <nav class="nav">
+                    <ul class="nav__items">
+                        <li class="nav__item"><a class="nav__item-link" href="about.html">О нас </a></li>
+                        <li class="nav__item"><a class="nav__item-link" href="catalog.html?cosmetics" data-cosmetics>Косметика</a></li>
+                        <li class="nav__item"><a class="nav__item-link" href="catalog.html?bads" data-bads>БАДы</a></li>
+                    </ul>
+                </nav>
+                <button class="burger" aria-label="Открыть меню">
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="catalog">
+            <div class="container">
+                <div class="catalog__wrapper">
+                    <div class="catalog__filter">
+                        <h2 class="catalog__filter-title">Категория</h2>
+                        <button class="catalog__filter-btn catalog__filter-btn--active" data-filter="all">Все</button>
+                        <button class="catalog__filter-btn" data-filter=".category-cosmetics">Косметика</button>
+                        <button class="catalog__filter-btn" data-filter=".category-bads">БАДы</button>
+                        <button class="catalog__close">
+                            <svg class="catalog__close-img">
+                                <use xlink:href="img/sprite.svg#close"></use>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="catalog__main">
+                        <button class="catalog__main-btn">Фильтры</button>
+                        <ul class="catalog__items">
+                            <li
+  class="catalog__item mix category-cosmetics ">
+  <img class="catalog__item-img" src="./img/product.jpg" alt="Продукт">
+  <p class="catalog__item-name">Увлажняющий антивозрастной крем для лица</p>
+  <a class=" catalog__item-link" href="product.html">Подробнее</a>
+  <div class="catalog__overlay"></div>
+</li><li
+  class="catalog__item mix  category-bads">
+  <img class="catalog__item-img" src="./img/product2.webp" alt="Продукт">
+  <p class="catalog__item-name">Морской коллаген порошок с пептидами и Витамином С</p>
+  <a class=" catalog__item-link" href="product2.html">Подробнее</a>
+  <div class="catalog__overlay"></div>
+</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="overlay"></div>
+    </main>
+    <footer class="footer">
+    <div class="container-main">
+        <div class="footer__wrapper">
+            <a class="footer__logo" href="index.html">
+                <img class="footer__logo-img" src="./img/logo-footer.png" alt="Логотип">
+            </a>
+            <div class="footer__info">
+                <div class="social">
+                    <p class="social__title">Наши аккаунты в социальных сетях</p>
+                    <ul class="social__items">
+                        <li class="social__item">
+                            <a class="social__item-link" href="#">
+                                <svg class="social__item-img social__item-img--vk">
+                                    <use xlink:href="img/sprite.svg#VK"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__item-link" href="#">
+                                <svg class="social__item-img social__item-img--inst">
+                                    <use xlink:href="img/sprite.svg#Instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="telephone">
+                    <p class="telephone__title">ИП: Иванов Сергей Петрович</p>
+                    <a class="telephone__link" href="mailto:sergeiivanov@rambler.ru"> sergeiivanov@rambler.ru</a>
+                    <p class="telephone__title">ИНН: 123456789012</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>

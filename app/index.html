@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Filllum</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.min.css">
+    <script defer src="js/main.min.js"></script>
+</head>
+
+<body class="body">
+
+<header class="header">
+
+        <div class="container-main">
+            <div class="header__wrapper">
+                <a class="header__logo" href="index.html">
+                    <img class="header__logo-img" src="./img/logo.png" alt="Логотип">
+                </a>
+                <nav class="nav">
+                    <ul class="nav__items">
+                        <li class="nav__item"><a class="nav__item-link" href="about.html">О нас </a></li>
+                        <li class="nav__item"><a class="nav__item-link" href="catalog.html?cosmetics" data-cosmetics>Косметика</a></li>
+                        <li class="nav__item"><a class="nav__item-link" href="catalog.html?bads" data-bads>БАДы</a></li>
+                    </ul>
+                </nav>
+                <button class="burger" aria-label="Открыть меню">
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <h2 class="hero__title visually-hidden">Карусель</h2>
+            <div class="hero__swiper swiper">
+                <div class="hero__swiper-wrapper swiper-wrapper">
+                    <div class="hero__swiper-slide swiper-slide" data-bigimg="./img/hero.jpg"
+                        data-smallimg="./img/hero-mob.jpg">
+                        <div class="hero__container container-main">
+                            <div class="hero__content">
+                                УВЛАЖНАЮЩАЯ
+                                КОСМЕТИКА
+                                ИЗ НАТУРАЛЬНЫХ ИНГРИДИЕНТОВ
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero__swiper-slide swiper-slide" data-bigimg="./img/hero2.jpg"
+                        data-smallimg="./img/hero-mob2.jpg">
+                        <div class="hero__container container-main">
+                            <div class="hero__content">
+                                УВЛАЖНАЮЩАЯ
+                                КОСМЕТИКА
+                                ИЗ НАТУРАЛЬНЫХ ИНГРИДИЕНТОВ
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero__swiper-slide swiper-slide" data-bigimg="./img/hero3.jpg"
+                        data-smallimg="./img/hero-mob3.jpg">
+                        <div class="hero__container container-main">
+                            <div class="hero__content">
+                                УВЛАЖНАЮЩАЯ
+                                КОСМЕТИКА
+                                ИЗ НАТУРАЛЬНЫХ ИНГРИДИЕНТОВ
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero__swiper-slide swiper-slide" data-bigimg="./img/hero4.jpg"
+                        data-smallimg="./img/hero-mob4.jpg">
+                        <div class="hero__container container-main">
+                            <div class="hero__content">
+                                УВЛАЖНАЮЩАЯ
+                                КОСМЕТИКА
+                                ИЗ НАТУРАЛЬНЫХ ИНГРИДИЕНТОВ
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__swiper-pagination swiper-pagination"></div>
+            </div>
+        </section>
+
+        <section class="advantages">
+            <h2 class="advantages__title visually-hidden">Преимущества</h2>
+            <marquee behavior="scroll" direction="left" loop="99">
+                <ul class="advantages__items">
+                    <li class="advantages__item">
+                        <img class="advantages__item-img" src="./img/advantages.svg" alt="">
+                        <p class="advantages__item-text">Натуральные ингредиенты</p>
+                    </li>
+                    <li class="advantages__item">
+                        <img class="advantages__item-img" src="./img/advantages2.svg" alt="">
+                        <p class="advantages__item-text advantages__item-text--balance">Оптимальное соотношение
+                            цена-качество</p>
+                    </li>
+                    <li class="advantages__item">
+                        <img class="advantages__item-img" src="./img/advantages3.svg" alt="">
+                        <p class="advantages__item-text">Одобрено врачами</p>
+                    </li>
+                    <li class="advantages__item">
+                        <img class="advantages__item-img" src="./img/advantages4.svg" alt="">
+                        <p class="advantages__item-text">Европейское качество</p>
+                    </li>
+                    <li class="advantages__item">
+                        <img class="advantages__item-img" src="./img/advantages.svg" alt="">
+                        <p class="advantages__item-text">Натуральные ингредиенты</p>
+                    </li>
+                    <li class="advantages__item">
+                        <img class="advantages__item-img" src="./img/advantages2.svg" alt="">
+                        <p class="advantages__item-text advantages__item-text--balance">Оптимальное соотношение
+                            цена-качество</p>
+                    </li>
+                    <li class="advantages__item">
+                        <img class="advantages__item-img" src="./img/advantages3.svg" alt="">
+                        <p class="advantages__item-text">Одобрено врачами</p>
+                    </li>
+                    <li class="advantages__item">
+                        <img class="advantages__item-img" src="./img/advantages4.svg" alt="">
+                        <p class="advantages__item-text">Европейское качество</p>
+                    </li>
+                </ul>
+            </marquee>
+
+        </section>
+
+        <section class="products">
+            <div class="container">
+                <div class="products__wrapper">
+                    <h2 class="products__title title">Наши продукты</h2>
+                    <div class="products__swiper swiper">
+                        <ul class="products__items swiper-wrapper">
+                            <li class="products__item swiper-slide">
+  <div class="products__item-wrapper">
+    <img class="products__item-img" src="./img/product.jpg" alt="Продукт">
+    <p class="products__item-title">Увлажняющий антивозрастной крем для лица</p>
+    <p class="products__item-price">551 ₽</p>
+    <a class="products__item-link" href="###" target="_blank">Купить</a>
+  </div>
+</li><li class="products__item swiper-slide">
+  <div class="products__item-wrapper">
+    <img class="products__item-img" src="./img/product2.webp" alt="Продукт">
+    <p class="products__item-title">Морской коллаген порошок с пептидами и Витамином С</p>
+    <p class="products__item-price">777 ₽</p>
+    <a class="products__item-link" href="###" target="_blank">Купить</a>
+  </div>
+</li>
+                        </ul>
+                    </div>
+                    <div class="products__arrow">
+                        <div class="products__item-prev swiper-button-prev"></div>
+                        <div class="products__item-next swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="info">
+            <h2 class="info__title visually-hidden">Информация</h2>
+            <div class="container">
+                <div class="info__text">
+                    <b>Fillum</b> — молодой и быстроразвивающийся бренд, который специализируется на производстве
+                    высококачественного морского коллагена бад для энергии и красоты.
+                </div>
+                <div class="info__text">
+                    Наши продукты проверены и сертифицированы, гарантируя высокое качество и безопасность. Мы гордимся
+                    своей репутацией производителя.
+                </div>
+            </div>
+        </section>
+
+        <section class="suggestions">
+            <div class="container">
+                <h2 class="suggestions__title title">Специальные предложения</h2>
+                <div class="suggestions__swiper swiper">
+                    <div class="suggestions__swiper-wrapper swiper-wrapper">
+                        <div class="suggestions__swiper-slide swiper-slide">
+  <a class="suggestions__link" href="###" target="_blank">
+      <img class="suggestions__img" src="./img/product.jpg" alt="Спец предложение">
+  </a>
+</div><div class="suggestions__swiper-slide swiper-slide">
+  <a class="suggestions__link" href="###" target="_blank">
+      <img class="suggestions__img" src="./img/product2.webp" alt="Спец предложение">
+  </a>
+</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="blog">
+            <div class="container">
+                <div class="blog__wrapper">
+                    <h2 class="blog__title title">Читайте в нашем блоге</h2>
+                    <div class="blog__swiper swiper">
+                        <div class="blog__swiper-wrapper swiper-wrapper">
+                            <article class="blog__swiper-slide swiper-slide news news--new">
+                                <img class="news__img" src="./img/blog1.jpg" alt="Старая пара">
+                                <h3 class="news__title">Магний как защита от деменции</h3>
+                                <a class="news__link" href="#">Перейти</a>
+                            </article>
+                            <article class="blog__swiper-slide swiper-slide news">
+                                <img class="news__img" src="./img/blog2.jpg" alt="Старая женщина">
+                                <h3 class="news__title">Как коллаген влияет на кожу</h3>
+                                <a class="news__link" href="#">Перейти</a>
+                            </article>
+                            <article class="blog__swiper-slide swiper-slide news">
+                                <img class="news__img" src="./img/blog3.jpg" alt="Девушка у моря">
+                                <h3 class="news__title">Витамины для поддержания
+                                    энргии</h3>
+                                <a class="news__link" href="#">Перейти</a>
+                            </article>
+                            <article class="blog__swiper-slide swiper-slide news news--new">
+                                <img class="news__img" src="./img/blog4.jpg" alt="ДНК">
+                                <h3 class="news__title">Производство</h3>
+                                <a class="news__link" href="#">Перейти</a>
+                            </article>
+                            <article class="blog__swiper-slide swiper-slide news news--new">
+                                <img class="news__img" src="./img/blog4.jpg" alt="ДНК">
+                                <h3 class="news__title">Производство</h3>
+                                <a class="news__link" href="#">Перейти</a>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="blog__swiper-button-prev swiper-button-prev"></div>
+                    <div class="blog__swiper-button-next swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="partners">
+            <div class="container">
+                <div class="partners__wrapper">
+                    <h2 class="partners__title title">партнеры</h2>
+                    <ul class="partners__items">
+                        <li class="partners__item">
+                            <img class="partners__item-img" src="./img/partners.png" alt="Партнеры">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <div class="overlay"></div>
+    </main>
+    <footer class="footer">
+    <div class="container-main">
+        <div class="footer__wrapper">
+            <a class="footer__logo" href="index.html">
+                <img class="footer__logo-img" src="./img/logo-footer.png" alt="Логотип">
+            </a>
+            <div class="footer__info">
+                <div class="social">
+                    <p class="social__title">Наши аккаунты в социальных сетях</p>
+                    <ul class="social__items">
+                        <li class="social__item">
+                            <a class="social__item-link" href="#">
+                                <svg class="social__item-img social__item-img--vk">
+                                    <use xlink:href="img/sprite.svg#VK"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__item-link" href="#">
+                                <svg class="social__item-img social__item-img--inst">
+                                    <use xlink:href="img/sprite.svg#Instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="telephone">
+                    <p class="telephone__title">ИП: Иванов Сергей Петрович</p>
+                    <a class="telephone__link" href="mailto:sergeiivanov@rambler.ru"> sergeiivanov@rambler.ru</a>
+                    <p class="telephone__title">ИНН: 123456789012</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>
